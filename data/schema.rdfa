@@ -528,7 +528,7 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <div typeof="rdfs:Class" resource="http://schema.org/Event">
       <span class="h" property="rdfs:label">Event</span>
-      <span property="rdfs:comment">TEST: An event happening at a certain time past or future and location physical or virtual, such as a concert, lecture, meeting, festival, or historical event. Repeated events may be structured as separate Event objects. Where applicable ticketing information may be added via the offers property.</span>
+      <span property="rdfs:comment">TEST: FUCK An event happening at a certain time past or future and location physical or virtual, such as a concert, lecture, meeting, festival, or historical event. Repeated events may be structured as separate Event objects. Where applicable ticketing information may be added via the offers property.</span>
        <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Thing">Thing</a></span>
        <link property="owl:equivalentClass" href="http://purl.org/dc/dcmitype/Event"/>
     </div>

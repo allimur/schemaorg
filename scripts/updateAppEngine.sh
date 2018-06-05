@@ -15,5 +15,5 @@ gcloud app deploy webschemas.yaml --project webschemas-g
 ### not so needed: 
 ### 
 
-# appcfg.py update .   -A sdo-callisto
+appcfg.py update .   -A sdo-occurrence
 # prod: appcfg.py update schemaorg.yaml -A schemaorgae

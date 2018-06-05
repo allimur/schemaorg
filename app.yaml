@@ -1,5 +1,9 @@
 #application: schemaorgae
 #application: webschemas
+#application: sdo-historicalevent
+
+health_check:
+  enable_health_check: False
 
 #version: 1
 module: default
