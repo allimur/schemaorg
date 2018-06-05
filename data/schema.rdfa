@@ -528,8 +528,22 @@ See also the &lt;a href=&quot;/docs/hotels.html&quot;&gt;dedicated document on t
 
     <div typeof="rdfs:Class" resource="http://schema.org/Event">
       <span class="h" property="rdfs:label">Event</span>
-      <span property="rdfs:comment">An event happening at a certain time and location, such as a concert, lecture, or festival. Ticketing information may be added via the [[offers]] property. Repeated events may be structured as separate Event objects.</span>
+      <span property="rdfs:comment">TEST: An event happening at a certain time past or future and location physical or virtual, such as a concert, lecture, meeting, festival, or historical event. Repeated events may be structured as separate Event objects. Where applicable ticketing information may be added via the offers property.</span>
        <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Thing">Thing</a></span>
+       <link property="owl:equivalentClass" href="http://purl.org/dc/dcmitype/Event"/>
+    </div>
+
+    <div typeof="rdfs:Class" resource="http://schema.org/BusinessEvent">
+      <span class="h" property="rdfs:label">BusinessEvent</span>
+      <span property="rdfs:comment">Event type: Business event.</span>
+       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Event">Event</a></span>
+    </div>
+    
+    <div typeof="rdfs:Class" resource="http://schema.org/HistoricalEvent">
+      <span class="h" property="rdfs:label">HistoricalEvent</span>
+      <span property="rdfs:comment">Something that happens or takes place, especially something significant or noteworthy; an incident, an occurrence, an event that has had an historical impact.
+</span>
+       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Event">Event</a></span>
        <link property="owl:equivalentClass" href="http://purl.org/dc/dcmitype/Event"/>
     </div>
 
